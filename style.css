@@ -11,92 +11,15 @@ body {
 
 }
 
-
-/*-------------------------------------  CSS DESKTOP ---------------------------------------------*/
-
-@media all and (min-width: 900px) {
-
-
-nav {
-              margin-top: 55px;
-              display: inline-block;
-            }
-
-.home {
-                color: rgb(0, 0, 0);
-                font-size: 1.5em;
-                font-weight: bold;
-                font-family: sans-serif;
-                margin-left: 40%;
-                margin-top: 20%;
-                background-color: rgb(0, 0, 0);
-                width: 69%;
-                padding: 2%;
-                display: inline-block;
-            }
-
-a {
-              text-decoration: none;
-              color: white;
-            }
-
-#title {
-              height: 60%;
-              margin-left: 35%;
-              margin-top: 18%;
-              color: rgb(41, 41, 41);
-              font-size: 4.5em;
-              font-weight: bold;
-              font-family: sans-serif;
-              }
-#command {
-                width: 50%;
+command {
+                width: 90%;
                 height: 12%;
-                margin-top: 50px;
+                margin-top: 10%;
                 background-image: url("img/command_bar.png");
                 background-repeat: no-repeat;
                 margin-bottom: 2%;
 
 }
-
-#list {
-                /*position: absolute; z-index: 2;*/
-                border: 2px solid white;
-                padding-bottom: 5%;
-                padding-top: 3%;
-                padding-left: 3%;
-                margin: 0 auto;
-                width: 80%;
-                height: 70%;
-                font-size: 1.2em;
-                font-weight: bold;
-                font-family: sans-serif;
-                color: white;
-
-            }
-#list li {
-                display: inline-block;
-            }
-
-
-.black {
-                font-size: 0.8em;
-                font-weight: bold;
-                font-family: sans-serif;
-                color: black;
-            }
-
-section {
-              margin-top: 30px;
-              color: black;
-              font-size: 2em;
-              font-weight: bold;
-              font-family: sans-serif;
-              margin-left: 8%;
-            }
-                  }
-
-
 
 /*/////////////////////////////     CSS SMARTPHONE     ////////////////////////////////////////////
 //                                                                                               //
@@ -146,10 +69,10 @@ a {
 }
 
 
-#command {
+/*#command {
                 display: none
 
-}
+}*/
 
 #list {
                 /*position: absolute; z-index: 2;*/
@@ -198,7 +121,7 @@ li img {
 }
 }
 
- /*/////////////////////////////     CSS TABLETTE      ////////////////////////////////////////////
+/*/////////////////////////////     CSS TABLETTE      ////////////////////////////////////////////
 //                                                                                               //
 //////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -206,44 +129,134 @@ li img {
 
 
 nav {
-              margin-top: 55px;
+             margin-top: 2%;
+             display: inline-block;
+             float: left;
+           }
+.home {
+               color: rgb(0, 0, 0);
+               font-size: 1.5em;
+               font-weight: bold;
+               font-family: sans-serif;
+               margin-left: 28%;
+               background-color: rgb(0, 0, 0);
+               width: 75%;
+               padding: 3%;
+               display: inline-block;
+           }
+
+a {
+             text-decoration: none;
+             color: white;
+           }
+
+#title {
+             height: 40%;
+             margin-left: 36%;
+             margin-top: 13%;
+             color: rgb(41, 41, 41);
+             font-size: 3.5em;
+             font-weight: bold;
+             font-family: sans-serif;
+             }
+
+
+#list {
+               /*position: absolute; z-index: 2;*/
+               border: 2px solid white;
+               padding-bottom: 5%;
+               padding-top: 3%;
+               padding-left: 3%;
+               margin: 0 auto;
+               width: 85%;
+               height: 70%;
+               font-size: 1.2em;
+               font-weight: bold;
+               font-family: sans-serif;
+               color: white;
+
+           }
+#list li {
+               display: inline-block;
+               padding-right: 7%;
+               padding-left: 0%;
+           }
+
+
+.black {
+               font-size: 0.8em;
+               font-weight: bold;
+               font-family: sans-serif;
+               color: black;
+           }
+
+section {
+             margin-top: 7%;
+             color: black;
+             font-size: 1.8em;
+             font-weight: bold;
+             font-family: sans-serif;
+             margin-left: 35%;
+             margin-bottom: 5%;
+           }
+                 }
+
+/*/////////////////////////////     CSS DESKTOP    ////////////////////////////////////////////
+//                                                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media all and (min-width: 900px) {
+
+
+nav {
+              margin-top: 4%;
+              margin-left: 7%;
               display: inline-block;
             }
+
 .home {
                 color: rgb(0, 0, 0);
                 font-size: 1.5em;
                 font-weight: bold;
                 font-family: sans-serif;
-                margin-left: 40%;
+                margin-left: 19%;
+                margin-top: 13%;
                 background-color: rgb(0, 0, 0);
-                width: 69%;
-                padding: 2%;
+                width: 90%;
+                padding: 3%;
                 display: inline-block;
             }
 
 a {
               text-decoration: none;
               color: white;
+              margin-left: 3%;
             }
 
 #title {
-              height: 40%;
-              margin-left: 31%;
-              margin-top: 13%;
+              height: 60%;
+              margin-left: 35%;
+              margin-top: 15%;
               color: rgb(41, 41, 41);
-              font-size: 3.5em;
+              font-size: 5em;
               font-weight: bold;
               font-family: sans-serif;
               }
+section {
+              margin-top: 7%;
+              color: black;
+              font-size: 2em;
+              font-weight: bold;
+              font-family: sans-serif;
 
+              }
 
 #list {
                 /*position: absolute; z-index: 2;*/
                 border: 2px solid white;
                 padding-bottom: 5%;
-                padding-top: 3%;
+                padding-top: 0%;
                 padding-left: 3%;
-                margin: 0 auto;
+                margin-left: 10%;
                 width: 80%;
                 height: 70%;
                 font-size: 1.2em;
@@ -254,8 +267,6 @@ a {
             }
 #list li {
                 display: inline-block;
-                padding-right: 7%;
-                padding-left: 0%;
             }
 
 
@@ -266,12 +277,5 @@ a {
                 color: black;
             }
 
-section {
-              margin-top: 30px;
-              color: black;
-              font-size: 2em;
-              font-weight: bold;
-              font-family: sans-serif;
-              margin-left: 8%;
-            }
-                  }
+
+}
