@@ -1,33 +1,34 @@
-/*/////////////////////////////     CSS DESKTOP   //////////////////////////////////////////////////
-//                                                                                               //
-//////////////////////////////////////////////////////////////////////////////////////////////////*/
+body {
+  background-image: url("img/macos_back.jpg");
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-color: #f9ce1e;
+
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/*-------------------------------------  CSS DESKTOP ---------------------------------------------*/
 
 @media all and (min-width: 900px) {
 
-body {
-              background-image: url("img/macos.jpg");
-              margin: 0 auto;
-              background-repeat: no-repeat;
-              background-color: #f9ce1e;
-              font-size: 62,5%;
-              background-position: center center;
-              background-size: cover;
-              background-attachment: fixed;
-
-            }
-#container {
-            }
 
 nav {
               margin-top: 55px;
               display: inline-block;
             }
+
 .home {
                 color: rgb(0, 0, 0);
                 font-size: 1.5em;
                 font-weight: bold;
                 font-family: sans-serif;
                 margin-left: 40%;
+                margin-top: 20%;
                 background-color: rgb(0, 0, 0);
                 width: 69%;
                 padding: 2%;
@@ -48,117 +49,16 @@ a {
               font-weight: bold;
               font-family: sans-serif;
               }
-
 #command {
-              width: 50%;
-              height: 12%;
-              margin-top: 50px;
-              background-image: url("img/command_bar.png");
-              background-repeat: no-repeat;
-
-            }
-
-#list {
-                /*position: absolute; z-index: 2;*/
-                border: 2px solid white;
-                padding-bottom: 5%;
-                padding-top: 3%;
-                padding-left: 3%;
-                margin: 0 auto;
-                width: 80%;
-                height: 70%;
-                font-size: 1.2em;
-                font-weight: bold;
-                font-family: sans-serif;
-                color: white;
-
-            }
-#list li {
-                display: inline-block;
-            }
-
-
-.black {
-                font-size: 0.8em;
-                font-weight: bold;
-                font-family: sans-serif;
-                color: black;
-            }
-
-section {
-              margin-top: 30px;
-              color: black;
-              font-size: 2em;
-              font-weight: bold;
-              font-family: sans-serif;
-              margin-left: 8%;
-            }
-                  }
-
-
- /*/////////////////////////////     CSS TABLETTE      ////////////////////////////////////////////
-//                                                                                               //
-//////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-@media all and (min-width: 599px) {  /*--------ici media css pr ecran)*/
-body {
-              background-image: url("img/macos_back.jpg");
-              margin: 0 auto;
-              background-repeat: no-repeat;
-              background-color: #f9ce1e;
-              font-size: 62,5%;
-              background-position: center center;
-              background-size: cover;
-              background-attachment: fixed;
-
-            }
-#container {
-
-        margin: 0 auto;
+                width: 50%;
+                height: 12%;
+                margin-top: 50px;
+                background-image: url("img/command_bar.png");
+                background-repeat: no-repeat;
+                margin-bottom: 2%;
 
 }
 
-nav {
-              margin-top: 55px;
-              display: inline-block;
-            }
-.home {
-                color: rgb(0, 0, 0);
-                font-size: 1.5em;
-                font-weight: bold;
-                font-family: sans-serif;
-                margin-left: 40%;
-                background-color: rgb(0, 0, 0);
-                width: 69%;
-                padding: 2%;
-                display: inline-block;
-            }
-
-a {
-              text-decoration: none;
-              color: white;
-            }
-
-#title {
-              height: 40%;
-              margin-left: 31%;
-              margin-top: 13%;
-              color: rgb(41, 41, 41);
-              font-size: 3.5em;
-              font-weight: bold;
-              font-family: sans-serif;
-              }
-
-#command {
-              width: 50%;
-              height: 12%;
-              margin-top: 50px;
-              background-image: url("img/command_bar.png");
-              background-repeat: no-repeat;
-              margin-bottom: 2%;
-
-            }
-
 #list {
                 /*position: absolute; z-index: 2;*/
                 border: 2px solid white;
@@ -176,8 +76,6 @@ a {
             }
 #list li {
                 display: inline-block;
-                padding-right: 7%;
-                padding-left: 0%;
             }
 
 
@@ -197,6 +95,8 @@ section {
               margin-left: 8%;
             }
                   }
+
+
 
 /*/////////////////////////////     CSS SMARTPHONE     ////////////////////////////////////////////
 //                                                                                               //
@@ -205,18 +105,8 @@ section {
 @media all and (min-width: 320px) {  /*--------ici media css pr ecran)*/
 
 body {
-
-                margin: 0 auto;
-                background-image: url("img/macos_back.jpg");
                 background-size: 100%;
-                background-repeat: no-repeat;
-                background-color: #f9ce1e;
-                font-size: 62,5%;
-
 }
-#container {
-    margin: 0 auto;
- }
 
 nav {
                 margin-top: 5px;
@@ -307,3 +197,81 @@ li img {
                 margin-left: 35%;
 }
 }
+
+ /*/////////////////////////////     CSS TABLETTE      ////////////////////////////////////////////
+//                                                                                               //
+//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media all and (min-width: 599px) {
+
+
+nav {
+              margin-top: 55px;
+              display: inline-block;
+            }
+.home {
+                color: rgb(0, 0, 0);
+                font-size: 1.5em;
+                font-weight: bold;
+                font-family: sans-serif;
+                margin-left: 40%;
+                background-color: rgb(0, 0, 0);
+                width: 69%;
+                padding: 2%;
+                display: inline-block;
+            }
+
+a {
+              text-decoration: none;
+              color: white;
+            }
+
+#title {
+              height: 40%;
+              margin-left: 31%;
+              margin-top: 13%;
+              color: rgb(41, 41, 41);
+              font-size: 3.5em;
+              font-weight: bold;
+              font-family: sans-serif;
+              }
+
+
+#list {
+                /*position: absolute; z-index: 2;*/
+                border: 2px solid white;
+                padding-bottom: 5%;
+                padding-top: 3%;
+                padding-left: 3%;
+                margin: 0 auto;
+                width: 80%;
+                height: 70%;
+                font-size: 1.2em;
+                font-weight: bold;
+                font-family: sans-serif;
+                color: white;
+
+            }
+#list li {
+                display: inline-block;
+                padding-right: 7%;
+                padding-left: 0%;
+            }
+
+
+.black {
+                font-size: 0.8em;
+                font-weight: bold;
+                font-family: sans-serif;
+                color: black;
+            }
+
+section {
+              margin-top: 30px;
+              color: black;
+              font-size: 2em;
+              font-weight: bold;
+              font-family: sans-serif;
+              margin-left: 8%;
+            }
+                  }
